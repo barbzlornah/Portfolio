@@ -1,9 +1,9 @@
 let personalData = {
     "name": "Barbara Lornah Masinde",
     "role": "Full Stack Software Engineer",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of both frontend and backend development.I am also experienced in Data Science and like to learn about new technologies.",
+    "linkedinId":"",
+    "skypeid": "",
+    "roleDescription": "and everything about tech excites me!",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -21,9 +21,8 @@ let personalData = {
           "className":"fa fa-skype"
         }
       ],
-    "aboutme":"I am an ambitious Software Engineer with expirience both in the backend and frontend Software Development.I am also experienced in Data Science and i work on projects on the same",
+    "aboutme":"I am an ambitious Software Engineer with experience both in the backend and frontend Software Development.I am also experienced in Data Science and i work on projects on the same",
     "address":"Nairobi,Kenya",
-    "website":"https://github.com/barbzlornah/PersonalWebsite",
     "education":[
       {
         "UniversityName":"Jomo Kenyatta University of Science and Technology",
