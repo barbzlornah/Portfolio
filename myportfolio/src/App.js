@@ -1,74 +1,24 @@
-import "./App.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
-import Header from "./Header";
-import Particles from "react-particles-js";
-import Section from "./components/Section";
-import resume from "./Resume";
-import aboutMe from "./Aboutme";
-import projects from "./Projects";
-import contacts from "./Contacts";
-
-function App() {
-  return (
-    <>
-    <Particles
-    className = "particles-canvas"
-     params = {{
-       particles:  {
-         number: {
-           value:30,
-           density: {
-             enable: true,
-             value_area: 900
-           }
-
-         },
-         shape: {
-           type: "circle",
-           stroke: {
-             width: 6,
-             color: "#f9ab00"
-           }
-         }
-       }
-
-     }}
-    />
-    <Navbar/>
-    <Header/>
-        <Section
-          title="Home"
-          subtitle={Header}
-          dark={true}
-          id="header"
-        />
-        <Section
-          title="Resume"
-          subtitle={resume}
-          
-          id="resume"
-        />
-        <Section
-          title="About Me"
-          subtitle={aboutMe}
-          
-          id="aboutme"
-        />
-        <Section
-          title="Projects"
-          subtitle={projects}
-          
-          id="projects"
-        />
-        <Section
-          title="Contacts"
-          subtitle={contacts}
-          
-          id="contacts"
-        />
-    </>
-  );
+import React, { Component } from 'react';
+import Header from './components/header/header';
+import About from './components/about/Aboutme';
+import Resume from './components/resume/Resume';
+import Projects from './components/projects/Projects';
+import ContactUs from './components/contacts/Contacts';
+import Footer from './components/footer/footer';
+import personalData from './personalData';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header personalData={personalData}/>
+        <About personalData={personalData}/>
+        <Resume personalData={personalData}/>
+        <Projects personalData={personalData}/>
+        <ContactUs personalData={personalData}/>
+        <Footer personalData={personalData}/>
+      </div>
+    );
+  }
 }
 
 export default App;
