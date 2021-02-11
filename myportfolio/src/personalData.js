@@ -84,22 +84,22 @@ let personalData = {
     "portfolio":[
       {
         "name":"project1",
-        "description":"mobileapp",
+        "description":"webapp",
         "imgurl":"images/portfolio/phone.jpg"
       },
       {
         "name":"project2",
-        "description":"mobileapp",
+        "description":"webapp",
         "imgurl":"images/portfolio/project.jpg"
       },
       {
         "name":"project3",
-        "description":"mobileapp",
+        "description":"webapp",
         "imgurl":"images/portfolio/project2.png"
       },
       {
         "name":"project4",
-        "description":"mobileapp",
+        "description":"webapp",
         "imgurl":"images/portfolio/phone.jpg"
       }
     ],
