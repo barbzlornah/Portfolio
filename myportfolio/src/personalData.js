@@ -1,8 +1,8 @@
 let personalData = {
     "name": "Barbara Lornah Masinde",
     "role": "Full Stack Software Engineer",
-    "linkedinId":"",
-    "skypeid": "",
+    "linkedinId":"https://www.linkedin.com/in/barbara-masinde-64846914a/",
+    "skypeid": "live:a44dbe64a9c1bf5c",
     "roleDescription": "and everything about tech excites me!",
     "socialLinks":[
         {
@@ -17,12 +17,13 @@ let personalData = {
         },
         {
           "name":"skype",
-          "url":"http://skype.com",
+          "url":"live:a44dbe64a9c1bf5c",
           "className":"fa fa-skype"
         }
       ],
     "aboutme":"I am an ambitious Software Engineer with experience both in the backend and frontend Software Development.I am also experienced in Data Science and i work on projects on the same",
     "address":"Nairobi,Kenya",
+    "website": "https://github.com/barbzlornah/PersonalWebsite",
     "education":[
       {
         "UniversityName":"Jomo Kenyatta University of Science and Technology",

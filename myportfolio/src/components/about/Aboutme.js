@@ -30,11 +30,8 @@ export default class About extends Component {
        						<span>{personalData.name}</span>
                      <br></br>
        						   <span>
-                     {personalData.address}
-                    </span>
-                    <br></br>
-                    <span>{personalData.website}</span>
-       					   </p>
+                     {personalData.address}</span>
+                    </p>
                   </div>
                </div>
             </div>
